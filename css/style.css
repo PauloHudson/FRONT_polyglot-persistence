@@ -1,0 +1,25 @@
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.btn-custom {
+  background-color: #444;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #666;
+}
+
+.alert {
+  border-radius: 10px;
+}
