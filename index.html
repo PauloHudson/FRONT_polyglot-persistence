@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta http-equiv="refresh" content="0; URL='login.html'" />
+  <meta charset="UTF-8">
+  <title>Redirecionando...</title>
+  <script>
+    (function(){
+      const token = localStorage.getItem('access_token') || localStorage.getItem('token');
+      if (token) {
+        window.location.replace('chat.html');
+      } else {
+        window.location.replace('login.html');
+      }
+    })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; URL='login.html'" />
+  </noscript>
+  
 </head>
 <body></body>
 </html>
